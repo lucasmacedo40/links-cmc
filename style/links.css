@@ -30,7 +30,7 @@
     text-decoration: none;
 }
 
-a { 
+a, p { 
     color: inherit; 
 } 
 
@@ -107,6 +107,19 @@ textarea {
     text-align: center;
 }
 
+.links img {
+    display: flex;
+    margin-left: 50%;
+    width: 5rem;
+   
+
+}
+
+.links img:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
 
 .links .link-fill-full {
     
